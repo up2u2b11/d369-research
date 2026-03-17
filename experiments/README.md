@@ -82,4 +82,4 @@ python experiments/04_special6_surah_level/experiment.py
 - التجارب 01-02 → [الورقة الأولى](../papers/d369_digital_root_fingerprint.pdf)
 - التجربة 03 → [الورقة الثانية](https://doi.org/10.5281/zenodo.19055332)
 - التجارب 04-06 → [الورقة الثالثة](../papers/d369_paper3_special6.pdf)
-- التجارب 07-10 → [الورقة الرابعة](https://doi.org/10.5281/zenodo.19078320)
+- التجارب 07-10 → [الورقة الرابعة](https://doi.org/10.5281/zenodo.19078371)
