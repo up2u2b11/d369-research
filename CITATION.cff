@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "إذا استخدمت هذا البحث، يُرجى الاستشهاد كما يلي:"
+title: "d369 — Digital Root Fingerprint of the Quran"
+authors:
+  - family-names: "Alwan"
+    given-names: "Emad Suleiman"
+    orcid: "https://orcid.org/0009-0004-5797-6140"
+date-released: "2026-03-17"
+version: "1.0.0"
+doi: "10.5281/zenodo.19073919"
+url: "https://github.com/up2u2b11/d369-research"
+repository-code: "https://github.com/up2u2b11/d369-research"
+license: "CC-BY-4.0"
+keywords:
+  - "Quran"
+  - "digital root"
+  - "Abjad numerals"
+  - "computational linguistics"
+  - "Islamic studies"
+  - "number theory"
+  - "Arabic"
+  - "statistical analysis"
+abstract: >
+  A computational study of the digital root fingerprint of the Quran.
+  Using multiple independent encoding systems (Abjad numerals and Special-6
+  binary encoding), we identify statistically significant patterns in {3,6,9}
+  that appear uniquely in the Quran and not in other Arabic texts.
+  Key findings: G14 transformation map (p < 0.00001), Special-6 surah-level
+  analysis (p = 0.007), validated against Bukhari, Ibn Arabi, and Muallaqat.
+preferred-citation:
+  type: article
+  title: "The Digital Root Fingerprint of the Quran — Paper III: System-Independent Validation via Special-6 Binary Encoding"
+  authors:
+    - family-names: "Alwan"
+      given-names: "Emad Suleiman"
+      orcid: "https://orcid.org/0009-0004-5797-6140"
+  year: 2026
+  doi: "10.5281/zenodo.19073919"
