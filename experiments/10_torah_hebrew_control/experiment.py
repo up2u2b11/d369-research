@@ -36,6 +36,8 @@ import sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'shared'))
 from utils import digit_root
 
+random.seed(369)  # Fixed seed for bitwise reproducibility
+
 DATA_DIR      = os.environ.get("D369_DATA", "/root/d369/data")
 TORAH_PATH    = os.path.join(DATA_DIR, "torah_hebrew.jsonl")
 PARASHOT_PATH = os.path.join(DATA_DIR, "parashot_boundaries.json")

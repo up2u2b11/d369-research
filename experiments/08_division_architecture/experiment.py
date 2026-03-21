@@ -27,6 +27,8 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'shared'))
 from utils import digit_root
 
+random.seed(42)  # Fixed seed for bitwise reproducibility
+
 DB_PATH = os.environ.get("D369_DB", "/root/d369/d369.db")
 
 
