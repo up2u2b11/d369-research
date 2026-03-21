@@ -2,20 +2,30 @@
 """
 Experiment 15 — Frequency Order Encoding (System 3)
 ====================================================
-A THIRD independent encoding system based on letter frequency rank.
+Original system by Emad Suleiman Alwan (2026).
 
-Principle: Most frequent letter = 1, next = 2, ... least = 6000
-Values follow the Abjad scale pattern (1-9, 10-90, 100-900, 1000-6000)
-but assigned by FREQUENCY rank, not alphabetical order.
+Principle (INVERSE FREQUENCY WEIGHTING):
+  - The MOST frequent letter gets the SMALLEST value (ا = 1)
+  - The LEAST frequent letter gets the LARGEST value (ؤ = 6000)
+  - Values follow the Abjad scale (1-9, 10-90, 100-900, 1000-6000)
+    but assigned by FREQUENCY RANK, not alphabetical order.
 
-This is structurally independent from both Abjad (historical order)
-and Special-6 (visual shape). If the fingerprint appears here too —
-three independent systems confirm the same phenomenon.
+Design insight: This makes RARE letters dominate the digital root,
+since their values are orders of magnitude larger. The system
+therefore reveals a different structural layer than:
+  - Abjad (historical alphabetical order)
+  - Special-6 (visual letter shape, binary construction)
+
+Three independent systems, three different principles:
+  System 1: Abjad       → historical tradition
+  System 2: Special-6   → visual form (33 shapes, binary)
+  System 3: Freq-Order  → inverse frequency weighting
 
 Key property: 11/33 letters (33.3%) have DR in {3,6,9} — EXACTLY
-at chance level. No letter-level bias. Any Surah-level result is pure.
+at chance level. Zero letter-level bias. Any Surah-level result is pure.
 
-Intellectual property: Emad Suleiman Alwan — up2b.ai — 2026
+All three systems are original work or independent application by
+Emad Suleiman Alwan — up2b.ai — 2026
 """
 
 import sqlite3
