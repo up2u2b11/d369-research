@@ -141,7 +141,7 @@ def main():
 
     print(f"\n  {'System':<30} | {'{3,6,9}':>8} | {'p':>8}")
     print(f"  {'-'*55}")
-    print(f"  {'Abjad (ة=5)':<30} | {'29.8%':>8} | {'0.817':>8}")
+    print(f"  {'Abjad (ة=5)':<30} | {'30.7%':>8} | {'0.75':>8}")
     print(f"  {'Special-6 (designed)':<30} | {'44.7%':>8} | {'0.007':>8}")
     print(f"  {'System 3 (random)':<30} | {p3:>7.1f}% | {pv3:>8.4f}")
     print(f"  {'Mean 33 random':<30} | {sum(pcts)/len(pcts):>7.1f}% | {'varies':>8}")

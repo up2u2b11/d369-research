@@ -237,7 +237,7 @@ if __name__ == "__main__":
   Comparison:
   {'System':<20} {'Surah %':>8} {'p-value':>10} {'Self-preserving':>16}
   {'-'*58}
-  {'Abjad (historical)':<20} {'29.8%':>8} {'0.817':>10} {'{1,3,6,9}':>16}
+  {'Abjad (historical)':<20} {'30.7%':>8} {'0.75':>10} {'{3,6,9}':>16}
   {'Special-6 (shape)':<20} {'44.7%':>8} {'0.007':>10} {'{9} only':>16}
   {'Freq-Order (System3)':<20} {f'{pct:.1f}%':>8} {f'{p_val:.4f}':>10} {str(preserving):>16}
 """, flush=True)
