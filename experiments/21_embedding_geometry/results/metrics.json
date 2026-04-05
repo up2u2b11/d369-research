@@ -1,0 +1,15 @@
+{
+  "quran": {
+    "silhouette_score": 0.001019815681502223,
+    "davies_bouldin_index": 140.75723854139136,
+    "centroid_distance": 0.06840647011995316,
+    "p_value": 0.868
+  },
+  "bukhari": {
+    "silhouette_score": -0.0008714739815331995,
+    "davies_bouldin_index": 91.99608051405147,
+    "centroid_distance": 0.10553382337093353
+  },
+  "n_words_quran": 14868,
+  "d369_fraction": 0.32613666935700836
+}

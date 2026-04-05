@@ -1,0 +1,13 @@
+{
+  "quran_mean_flow": 0.22108012437820435,
+  "quran_std_flow": 0.0800839364528656,
+  "quran_d369_frac": 0.38921375083215437,
+  "quran_deviation": -0.16813362645395002,
+  "bukhari_mean_flow": 0.19554255902767181,
+  "bukhari_std_flow": 0.07351469993591309,
+  "bukhari_d369_frac": 0.3327435119649478,
+  "bukhari_deviation": -0.13720095293727597,
+  "cohens_d": 0.3322196292283473,
+  "n_quran": 919,
+  "n_bukhari": 989
+}
