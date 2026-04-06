@@ -1,0 +1,206 @@
+{
+  "test_a": {
+    "quran_abjad": {
+      "label": "Quran (Abjad)",
+      "n": 78248,
+      "n_prime": 16491,
+      "n_composite": 61757,
+      "pct_prime": 21.08,
+      "pct_composite": 78.92,
+      "ratio_cp": 3.74,
+      "prime_drs": {
+        "1": 2193,
+        "2": 2800,
+        "4": 2390,
+        "5": 3990,
+        "7": 2603,
+        "8": 2515
+      },
+      "composite_drs": {
+        "1": 4514,
+        "2": 5424,
+        "3": 9739,
+        "4": 4999,
+        "5": 5698,
+        "6": 9185,
+        "7": 4734,
+        "8": 6471,
+        "9": 10993
+      },
+      "comp_369_pct": 48.44
+    },
+    "quran_k6": {
+      "label": "Quran (K6)",
+      "n": 78248,
+      "n_prime": 5676,
+      "n_composite": 72572,
+      "pct_prime": 7.25,
+      "pct_composite": 92.75,
+      "ratio_cp": 12.79,
+      "prime_drs": {
+        "1": 594,
+        "2": 1255,
+        "4": 460,
+        "5": 759,
+        "7": 1601,
+        "8": 1007
+      },
+      "composite_drs": {
+        "1": 7130,
+        "2": 7283,
+        "3": 6902,
+        "4": 9517,
+        "5": 9519,
+        "6": 9508,
+        "7": 6029,
+        "8": 6341,
+        "9": 10343
+      },
+      "comp_369_pct": 36.86
+    },
+    "Bukhari": {
+      "label": "Bukhari (Abjad)",
+      "n": 66349,
+      "n_prime": 15271,
+      "n_composite": 51078,
+      "pct_prime": 23.02,
+      "pct_composite": 76.98,
+      "ratio_cp": 3.34,
+      "prime_drs": {
+        "1": 1150,
+        "2": 1457,
+        "4": 2737,
+        "5": 6653,
+        "7": 1285,
+        "8": 1989
+      },
+      "composite_drs": {
+        "1": 4141,
+        "2": 3853,
+        "3": 10874,
+        "4": 5782,
+        "5": 3466,
+        "6": 4262,
+        "7": 6876,
+        "8": 4937,
+        "9": 6887
+      },
+      "comp_369_pct": 43.12
+    },
+    "Muallaqat": {
+      "label": "Muallaqat (Abjad)",
+      "n": 792,
+      "n_prime": 171,
+      "n_composite": 621,
+      "pct_prime": 21.59,
+      "pct_composite": 78.41,
+      "ratio_cp": 3.63,
+      "prime_drs": {
+        "1": 21,
+        "2": 31,
+        "4": 26,
+        "5": 32,
+        "7": 27,
+        "8": 34
+      },
+      "composite_drs": {
+        "1": 52,
+        "2": 74,
+        "3": 70,
+        "4": 67,
+        "5": 86,
+        "6": 58,
+        "7": 65,
+        "8": 52,
+        "9": 97
+      },
+      "comp_369_pct": 36.23
+    }
+  },
+  "test_b": {
+    "quran": {
+      "label": "Quran (Abjad)",
+      "n": 78248,
+      "div3": 29917,
+      "pct_div3": 38.23,
+      "excess": 4.9
+    },
+    "Bukhari": {
+      "label": "Bukhari (Abjad)",
+      "n": 66349,
+      "div3": 22023,
+      "pct_div3": 33.19,
+      "excess": -0.14
+    },
+    "Muallaqat": {
+      "label": "Muallaqat (Abjad)",
+      "n": 792,
+      "div3": 225,
+      "pct_div3": 28.41,
+      "excess": -4.92
+    }
+  },
+  "test_c": {
+    "avg_composite_pct": 79.9,
+    "min": 61.3,
+    "max": 95.8,
+    "high_composite_count": 50
+  },
+  "test_d": {
+    "Bukhari": {
+      "quran_pct": 38.23,
+      "comp_pct": 33.19,
+      "diff": 5.04,
+      "p_value": 0.0,
+      "cohens_h": 0.1053
+    },
+    "Muallaqat": {
+      "quran_pct": 38.23,
+      "comp_pct": 28.41,
+      "diff": 9.82,
+      "p_value": 0.0,
+      "cohens_h": 0.209
+    }
+  },
+  "test_e": {
+    "quran": {
+      "label": "Quran (Abjad)",
+      "mod6": {
+        "0": 18932,
+        "1": 11064,
+        "2": 12321,
+        "3": 10985,
+        "4": 10369,
+        "5": 14577
+      },
+      "div3_pct": 38.23,
+      "prime_eligible_pct": 32.77
+    },
+    "Bukhari": {
+      "label": "Bukhari (Abjad)",
+      "mod6": {
+        "0": 14932,
+        "1": 9489,
+        "2": 9265,
+        "3": 7091,
+        "4": 12482,
+        "5": 13090
+      },
+      "div3_pct": 33.19,
+      "prime_eligible_pct": 34.03
+    },
+    "Muallaqat": {
+      "label": "Muallaqat (Abjad)",
+      "mod6": {
+        "0": 124,
+        "1": 119,
+        "2": 162,
+        "3": 101,
+        "4": 139,
+        "5": 147
+      },
+      "div3_pct": 28.41,
+      "prime_eligible_pct": 33.59
+    }
+  }
+}
