@@ -27,7 +27,8 @@
         "8": 6471,
         "9": 10993
       },
-      "comp_369_pct": 48.44
+      "comp_369_pct": 48.44,
+      "theorem_violations": 0
     },
     "quran_k6": {
       "label": "Quran (K6)",
@@ -56,7 +57,8 @@
         "8": 6341,
         "9": 10343
       },
-      "comp_369_pct": 36.86
+      "comp_369_pct": 36.86,
+      "theorem_violations": 0
     },
     "Bukhari": {
       "label": "Bukhari (Abjad)",
@@ -85,7 +87,8 @@
         "8": 4937,
         "9": 6887
       },
-      "comp_369_pct": 43.12
+      "comp_369_pct": 43.12,
+      "theorem_violations": 0
     },
     "Muallaqat": {
       "label": "Muallaqat (Abjad)",
@@ -114,7 +117,8 @@
         "8": 52,
         "9": 97
       },
-      "comp_369_pct": 36.23
+      "comp_369_pct": 36.23,
+      "theorem_violations": 0
     }
   },
   "test_b": {
@@ -123,28 +127,71 @@
       "n": 78248,
       "div3": 29917,
       "pct_div3": 38.23,
-      "excess": 4.9
+      "excess": 4.9,
+      "ci_95": [
+        37.9,
+        38.58
+      ]
     },
     "Bukhari": {
       "label": "Bukhari (Abjad)",
       "n": 66349,
       "div3": 22023,
       "pct_div3": 33.19,
-      "excess": -0.14
+      "excess": -0.14,
+      "ci_95": [
+        32.84,
+        33.54
+      ]
     },
     "Muallaqat": {
       "label": "Muallaqat (Abjad)",
       "n": 792,
       "div3": 225,
       "pct_div3": 28.41,
-      "excess": -4.92
+      "excess": -4.92,
+      "ci_95": [
+        25.25,
+        31.57
+      ]
     }
   },
   "test_c": {
     "avg_composite_pct": 79.9,
-    "min": 61.3,
-    "max": 95.8,
-    "high_composite_count": 50
+    "avg_div3_pct": 38.1,
+    "std_div3": 5.4,
+    "min_composite": 61.3,
+    "max_composite": 95.8,
+    "high_div3_surahs": [
+      [
+        55,
+        47.8
+      ],
+      [
+        56,
+        46.5
+      ],
+      [
+        103,
+        50.0
+      ],
+      [
+        104,
+        45.9
+      ],
+      [
+        110,
+        47.8
+      ],
+      [
+        113,
+        51.9
+      ],
+      [
+        114,
+        45.8
+      ]
+    ]
   },
   "test_d": {
     "Bukhari": {
