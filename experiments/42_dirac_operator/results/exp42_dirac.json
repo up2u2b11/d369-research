@@ -1,0 +1,1339 @@
+{
+  "experiment": "Exp42_DiracOperator",
+  "date": "2026-05-15",
+  "author": "Emad Suleiman Alwan",
+  "ORCID": "0009-0004-5797-6140",
+  "operators": {
+    "G14_matrix": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "L_sym_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        -0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.5,
+        0.0,
+        0.0,
+        -0.5,
+        0.0,
+        0.0,
+        -0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.5,
+        0.0,
+        -0.5,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "D_matrix": [
+      [
+        0.9692490778314156,
+        0.0008542950424092659,
+        -0.024172487404118627,
+        0.0,
+        -0.2560991911160504,
+        0.0,
+        0.0,
+        0.0008542950424092659,
+        0.0
+      ],
+      [
+        0.0008542950424092405,
+        0.9733925902560568,
+        -0.3035898708818789,
+        1.4460236372523227e-16,
+        -0.024172487404118974,
+        0.0,
+        -1.5678251275278697e-17,
+        -0.026607409743942597,
+        0.0
+      ],
+      [
+        -0.024172487404118596,
+        -0.3035898708818789,
+        0.31543295134423854,
+        0.0,
+        -0.30273557583946986,
+        0.0,
+        0.0,
+        -0.3035898708818789,
+        0.0
+      ],
+      [
+        0.0,
+        1.446023637252323e-16,
+        0.0,
+        0.707106784991158,
+        0.0,
+        0.0,
+        -0.7071067773819368,
+        1.4372225827478068e-16,
+        0.0
+      ],
+      [
+        -0.25609919111605045,
+        -0.02417248740411899,
+        -0.30273557583946986,
+        0.0,
+        0.9450765904272963,
+        0.0,
+        0.0,
+        -0.02417248740411899,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.5678251275278694e-17,
+        0.0,
+        -0.7071067773819367,
+        0.0,
+        0.0,
+        0.7071067849911578,
+        -2.726463688167727e-16,
+        0.0
+      ],
+      [
+        0.0008542950424092405,
+        -0.026607409743942597,
+        -0.3035898708818789,
+        1.4372225827478068e-16,
+        -0.024172487404118974,
+        0.0,
+        -2.726463688167727e-16,
+        0.973392590256057,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "L_eigenvalues": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.567316,
+      1.0,
+      1.289712,
+      1.658133,
+      2.0
+    ],
+    "D_eigenvalues": [
+      -0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.753204,
+      1.0,
+      1.135655,
+      1.287685,
+      1.414214
+    ]
+  },
+  "kernel_analysis": {
+    "n_zero_modes": 4,
+    "mass_gap": 0.753204,
+    "zero_modes": [
+      {
+        "index": 1,
+        "eigenvalue": -0.0,
+        "overlaps": {
+          "1": 0.010902,
+          "2": 0.079495,
+          "3": 0.729995,
+          "4": 0.0,
+          "5": 0.100112,
+          "6": 0.0,
+          "7": 0.0,
+          "8": 0.079495,
+          "9": 0.0
+        },
+        "dominant": [
+          [
+            3,
+            0.729995
+          ],
+          [
+            5,
+            0.100112
+          ],
+          [
+            2,
+            0.079495
+          ]
+        ],
+        "aligned_3": false,
+        "aligned_6": false,
+        "aligned_9": false,
+        "aligned_47": false
+      },
+      {
+        "index": 2,
+        "eigenvalue": 0.0,
+        "overlaps": {
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0,
+          "5": 0.0,
+          "6": 0.0,
+          "7": 0.0,
+          "8": 0.0,
+          "9": 1.0
+        },
+        "dominant": [
+          [
+            9,
+            1.0
+          ]
+        ],
+        "aligned_3": false,
+        "aligned_6": false,
+        "aligned_9": true,
+        "aligned_47": false
+      },
+      {
+        "index": 3,
+        "eigenvalue": 0.0,
+        "overlaps": {
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0,
+          "5": 0.0,
+          "6": 1.0,
+          "7": 0.0,
+          "8": 0.0,
+          "9": 0.0
+        },
+        "dominant": [
+          [
+            6,
+            1.0
+          ]
+        ],
+        "aligned_3": false,
+        "aligned_6": true,
+        "aligned_9": false,
+        "aligned_47": false
+      },
+      {
+        "index": 4,
+        "eigenvalue": 7.6e-09,
+        "overlaps": {
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.5,
+          "5": 0.0,
+          "6": 0.0,
+          "7": 0.5,
+          "8": 0.0,
+          "9": 0.0
+        },
+        "dominant": [
+          [
+            4,
+            0.5
+          ],
+          [
+            7,
+            0.5
+          ]
+        ],
+        "aligned_3": false,
+        "aligned_6": false,
+        "aligned_9": false,
+        "aligned_47": true
+      }
+    ],
+    "n_369_zero_modes": 2,
+    "n_47_zero_modes": 1
+  },
+  "surah_dirac_summary": {
+    "n_surahs": 114,
+    "mean_dirac_energy": 0.17401,
+    "mean_kernel_proj": 0.831528,
+    "min_dirac_energy": 0.04103,
+    "max_dirac_energy": 0.520984,
+    "corr_energy_proj369": -0.740159
+  },
+  "top5_lowest_energy": [
+    {
+      "surah_id": 114,
+      "dirac_energy": 0.04103,
+      "kernel_proj": 0.968039,
+      "proj_369": 0.458333,
+      "n_words": null
+    },
+    {
+      "surah_id": 65,
+      "dirac_energy": 0.0453,
+      "kernel_proj": 0.954268,
+      "proj_369": 0.412969,
+      "n_words": null
+    },
+    {
+      "surah_id": 106,
+      "dirac_energy": 0.061533,
+      "kernel_proj": 0.924466,
+      "proj_369": 0.333333,
+      "n_words": null
+    },
+    {
+      "surah_id": 107,
+      "dirac_energy": 0.065706,
+      "kernel_proj": 0.940372,
+      "proj_369": 0.448276,
+      "n_words": null
+    },
+    {
+      "surah_id": 91,
+      "dirac_energy": 0.066326,
+      "kernel_proj": 0.941082,
+      "proj_369": 0.413793,
+      "n_words": null
+    }
+  ],
+  "top5_highest_energy": [
+    {
+      "surah_id": 90,
+      "dirac_energy": 0.354165,
+      "kernel_proj": 0.678683,
+      "proj_369": 0.325581,
+      "n_words": null
+    },
+    {
+      "surah_id": 94,
+      "dirac_energy": 0.357713,
+      "kernel_proj": 0.627122,
+      "proj_369": 0.322581,
+      "n_words": null
+    },
+    {
+      "surah_id": 86,
+      "dirac_energy": 0.379804,
+      "kernel_proj": 0.655357,
+      "proj_369": 0.246154,
+      "n_words": null
+    },
+    {
+      "surah_id": 101,
+      "dirac_energy": 0.45328,
+      "kernel_proj": 0.568773,
+      "proj_369": 0.25,
+      "n_words": null
+    },
+    {
+      "surah_id": 109,
+      "dirac_energy": 0.520984,
+      "kernel_proj": 0.342839,
+      "proj_369": 0.129032,
+      "n_words": null
+    }
+  ],
+  "surah_dirac_full": [
+    {
+      "surah_id": 1,
+      "dirac_energy": 0.34388,
+      "kernel_proj": 0.644933,
+      "proj_369": 0.206897,
+      "n_words": null
+    },
+    {
+      "surah_id": 2,
+      "dirac_energy": 0.139051,
+      "kernel_proj": 0.865231,
+      "proj_369": 0.389097,
+      "n_words": null
+    },
+    {
+      "surah_id": 3,
+      "dirac_energy": 0.119723,
+      "kernel_proj": 0.885733,
+      "proj_369": 0.399429,
+      "n_words": null
+    },
+    {
+      "surah_id": 4,
+      "dirac_energy": 0.128586,
+      "kernel_proj": 0.878526,
+      "proj_369": 0.387576,
+      "n_words": null
+    },
+    {
+      "surah_id": 5,
+      "dirac_energy": 0.130935,
+      "kernel_proj": 0.880319,
+      "proj_369": 0.386132,
+      "n_words": null
+    },
+    {
+      "surah_id": 6,
+      "dirac_energy": 0.173253,
+      "kernel_proj": 0.837851,
+      "proj_369": 0.35098,
+      "n_words": null
+    },
+    {
+      "surah_id": 7,
+      "dirac_energy": 0.169174,
+      "kernel_proj": 0.839429,
+      "proj_369": 0.367115,
+      "n_words": null
+    },
+    {
+      "surah_id": 8,
+      "dirac_energy": 0.096164,
+      "kernel_proj": 0.911744,
+      "proj_369": 0.407378,
+      "n_words": null
+    },
+    {
+      "surah_id": 9,
+      "dirac_energy": 0.125383,
+      "kernel_proj": 0.8803,
+      "proj_369": 0.402794,
+      "n_words": null
+    },
+    {
+      "surah_id": 10,
+      "dirac_energy": 0.159864,
+      "kernel_proj": 0.845075,
+      "proj_369": 0.372219,
+      "n_words": null
+    },
+    {
+      "surah_id": 11,
+      "dirac_energy": 0.19221,
+      "kernel_proj": 0.8187,
+      "proj_369": 0.353846,
+      "n_words": null
+    },
+    {
+      "surah_id": 12,
+      "dirac_energy": 0.160022,
+      "kernel_proj": 0.844036,
+      "proj_369": 0.371317,
+      "n_words": null
+    },
+    {
+      "surah_id": 13,
+      "dirac_energy": 0.139755,
+      "kernel_proj": 0.859603,
+      "proj_369": 0.363636,
+      "n_words": null
+    },
+    {
+      "surah_id": 14,
+      "dirac_energy": 0.128631,
+      "kernel_proj": 0.879781,
+      "proj_369": 0.407674,
+      "n_words": null
+    },
+    {
+      "surah_id": 15,
+      "dirac_energy": 0.174831,
+      "kernel_proj": 0.833977,
+      "proj_369": 0.373676,
+      "n_words": null
+    },
+    {
+      "surah_id": 16,
+      "dirac_energy": 0.13486,
+      "kernel_proj": 0.867504,
+      "proj_369": 0.411255,
+      "n_words": null
+    },
+    {
+      "surah_id": 17,
+      "dirac_energy": 0.235332,
+      "kernel_proj": 0.779098,
+      "proj_369": 0.338028,
+      "n_words": null
+    },
+    {
+      "surah_id": 18,
+      "dirac_energy": 0.208128,
+      "kernel_proj": 0.802893,
+      "proj_369": 0.347196,
+      "n_words": null
+    },
+    {
+      "surah_id": 19,
+      "dirac_energy": 0.229492,
+      "kernel_proj": 0.792749,
+      "proj_369": 0.345641,
+      "n_words": null
+    },
+    {
+      "surah_id": 20,
+      "dirac_energy": 0.215238,
+      "kernel_proj": 0.796881,
+      "proj_369": 0.351511,
+      "n_words": null
+    },
+    {
+      "surah_id": 21,
+      "dirac_energy": 0.181184,
+      "kernel_proj": 0.821952,
+      "proj_369": 0.376061,
+      "n_words": null
+    },
+    {
+      "surah_id": 22,
+      "dirac_energy": 0.070908,
+      "kernel_proj": 0.932398,
+      "proj_369": 0.439595,
+      "n_words": null
+    },
+    {
+      "surah_id": 23,
+      "dirac_energy": 0.12144,
+      "kernel_proj": 0.882226,
+      "proj_369": 0.401515,
+      "n_words": null
+    },
+    {
+      "surah_id": 24,
+      "dirac_energy": 0.109992,
+      "kernel_proj": 0.893372,
+      "proj_369": 0.411943,
+      "n_words": null
+    },
+    {
+      "surah_id": 25,
+      "dirac_energy": 0.156499,
+      "kernel_proj": 0.849282,
+      "proj_369": 0.35,
+      "n_words": null
+    },
+    {
+      "surah_id": 26,
+      "dirac_energy": 0.180951,
+      "kernel_proj": 0.833334,
+      "proj_369": 0.367825,
+      "n_words": null
+    },
+    {
+      "surah_id": 27,
+      "dirac_energy": 0.138348,
+      "kernel_proj": 0.867119,
+      "proj_369": 0.368874,
+      "n_words": null
+    },
+    {
+      "surah_id": 28,
+      "dirac_energy": 0.176476,
+      "kernel_proj": 0.837535,
+      "proj_369": 0.371706,
+      "n_words": null
+    },
+    {
+      "surah_id": 29,
+      "dirac_energy": 0.120386,
+      "kernel_proj": 0.887066,
+      "proj_369": 0.406314,
+      "n_words": null
+    },
+    {
+      "surah_id": 30,
+      "dirac_energy": 0.108459,
+      "kernel_proj": 0.888854,
+      "proj_369": 0.43849,
+      "n_words": null
+    },
+    {
+      "surah_id": 31,
+      "dirac_energy": 0.117426,
+      "kernel_proj": 0.88234,
+      "proj_369": 0.415162,
+      "n_words": null
+    },
+    {
+      "surah_id": 32,
+      "dirac_energy": 0.120968,
+      "kernel_proj": 0.886569,
+      "proj_369": 0.444149,
+      "n_words": null
+    },
+    {
+      "surah_id": 33,
+      "dirac_energy": 0.104315,
+      "kernel_proj": 0.903086,
+      "proj_369": 0.385616,
+      "n_words": null
+    },
+    {
+      "surah_id": 34,
+      "dirac_energy": 0.186298,
+      "kernel_proj": 0.823714,
+      "proj_369": 0.368243,
+      "n_words": null
+    },
+    {
+      "surah_id": 35,
+      "dirac_energy": 0.130018,
+      "kernel_proj": 0.877317,
+      "proj_369": 0.40665,
+      "n_words": null
+    },
+    {
+      "surah_id": 36,
+      "dirac_energy": 0.152613,
+      "kernel_proj": 0.851419,
+      "proj_369": 0.377384,
+      "n_words": null
+    },
+    {
+      "surah_id": 37,
+      "dirac_energy": 0.214692,
+      "kernel_proj": 0.793121,
+      "proj_369": 0.331415,
+      "n_words": null
+    },
+    {
+      "surah_id": 38,
+      "dirac_energy": 0.225169,
+      "kernel_proj": 0.790567,
+      "proj_369": 0.32747,
+      "n_words": null
+    },
+    {
+      "surah_id": 39,
+      "dirac_energy": 0.117986,
+      "kernel_proj": 0.889772,
+      "proj_369": 0.388654,
+      "n_words": null
+    },
+    {
+      "surah_id": 40,
+      "dirac_energy": 0.110961,
+      "kernel_proj": 0.893374,
+      "proj_369": 0.4,
+      "n_words": null
+    },
+    {
+      "surah_id": 41,
+      "dirac_energy": 0.133665,
+      "kernel_proj": 0.865889,
+      "proj_369": 0.397243,
+      "n_words": null
+    },
+    {
+      "surah_id": 42,
+      "dirac_energy": 0.150779,
+      "kernel_proj": 0.859736,
+      "proj_369": 0.384259,
+      "n_words": null
+    },
+    {
+      "surah_id": 43,
+      "dirac_energy": 0.165953,
+      "kernel_proj": 0.835034,
+      "proj_369": 0.37381,
+      "n_words": null
+    },
+    {
+      "surah_id": 44,
+      "dirac_energy": 0.133774,
+      "kernel_proj": 0.873489,
+      "proj_369": 0.405714,
+      "n_words": null
+    },
+    {
+      "surah_id": 45,
+      "dirac_energy": 0.158845,
+      "kernel_proj": 0.840122,
+      "proj_369": 0.378049,
+      "n_words": null
+    },
+    {
+      "surah_id": 46,
+      "dirac_energy": 0.122966,
+      "kernel_proj": 0.884109,
+      "proj_369": 0.383667,
+      "n_words": null
+    },
+    {
+      "surah_id": 47,
+      "dirac_energy": 0.073184,
+      "kernel_proj": 0.929317,
+      "proj_369": 0.432234,
+      "n_words": null
+    },
+    {
+      "surah_id": 48,
+      "dirac_energy": 0.085574,
+      "kernel_proj": 0.914899,
+      "proj_369": 0.388298,
+      "n_words": null
+    },
+    {
+      "surah_id": 49,
+      "dirac_energy": 0.133336,
+      "kernel_proj": 0.879134,
+      "proj_369": 0.422969,
+      "n_words": null
+    },
+    {
+      "surah_id": 50,
+      "dirac_energy": 0.210154,
+      "kernel_proj": 0.801613,
+      "proj_369": 0.374005,
+      "n_words": null
+    },
+    {
+      "surah_id": 51,
+      "dirac_energy": 0.151958,
+      "kernel_proj": 0.852234,
+      "proj_369": 0.39011,
+      "n_words": null
+    },
+    {
+      "surah_id": 52,
+      "dirac_energy": 0.263299,
+      "kernel_proj": 0.759306,
+      "proj_369": 0.322785,
+      "n_words": null
+    },
+    {
+      "surah_id": 53,
+      "dirac_energy": 0.211243,
+      "kernel_proj": 0.811476,
+      "proj_369": 0.370879,
+      "n_words": null
+    },
+    {
+      "surah_id": 54,
+      "dirac_energy": 0.235061,
+      "kernel_proj": 0.77361,
+      "proj_369": 0.367052,
+      "n_words": null
+    },
+    {
+      "surah_id": 55,
+      "dirac_energy": 0.078825,
+      "kernel_proj": 0.927991,
+      "proj_369": 0.477528,
+      "n_words": null
+    },
+    {
+      "surah_id": 56,
+      "dirac_energy": 0.088741,
+      "kernel_proj": 0.906185,
+      "proj_369": 0.464752,
+      "n_words": null
+    },
+    {
+      "surah_id": 57,
+      "dirac_energy": 0.152986,
+      "kernel_proj": 0.858243,
+      "proj_369": 0.385147,
+      "n_words": null
+    },
+    {
+      "surah_id": 58,
+      "dirac_energy": 0.104897,
+      "kernel_proj": 0.903182,
+      "proj_369": 0.417537,
+      "n_words": null
+    },
+    {
+      "surah_id": 59,
+      "dirac_energy": 0.129698,
+      "kernel_proj": 0.881802,
+      "proj_369": 0.399113,
+      "n_words": null
+    },
+    {
+      "surah_id": 60,
+      "dirac_energy": 0.168499,
+      "kernel_proj": 0.818942,
+      "proj_369": 0.38764,
+      "n_words": null
+    },
+    {
+      "surah_id": 61,
+      "dirac_energy": 0.219041,
+      "kernel_proj": 0.809565,
+      "proj_369": 0.356522,
+      "n_words": null
+    },
+    {
+      "surah_id": 62,
+      "dirac_energy": 0.095986,
+      "kernel_proj": 0.912879,
+      "proj_369": 0.447514,
+      "n_words": null
+    },
+    {
+      "surah_id": 63,
+      "dirac_energy": 0.106646,
+      "kernel_proj": 0.904839,
+      "proj_369": 0.389189,
+      "n_words": null
+    },
+    {
+      "surah_id": 64,
+      "dirac_energy": 0.116833,
+      "kernel_proj": 0.893943,
+      "proj_369": 0.402439,
+      "n_words": null
+    },
+    {
+      "surah_id": 65,
+      "dirac_energy": 0.0453,
+      "kernel_proj": 0.954268,
+      "proj_369": 0.412969,
+      "n_words": null
+    },
+    {
+      "surah_id": 66,
+      "dirac_energy": 0.223583,
+      "kernel_proj": 0.7897,
+      "proj_369": 0.356589,
+      "n_words": null
+    },
+    {
+      "surah_id": 67,
+      "dirac_energy": 0.151018,
+      "kernel_proj": 0.862001,
+      "proj_369": 0.385757,
+      "n_words": null
+    },
+    {
+      "surah_id": 68,
+      "dirac_energy": 0.269371,
+      "kernel_proj": 0.766732,
+      "proj_369": 0.344262,
+      "n_words": null
+    },
+    {
+      "surah_id": 69,
+      "dirac_energy": 0.196109,
+      "kernel_proj": 0.798402,
+      "proj_369": 0.337121,
+      "n_words": null
+    },
+    {
+      "surah_id": 70,
+      "dirac_energy": 0.184712,
+      "kernel_proj": 0.833281,
+      "proj_369": 0.38914,
+      "n_words": null
+    },
+    {
+      "surah_id": 71,
+      "dirac_energy": 0.135992,
+      "kernel_proj": 0.857191,
+      "proj_369": 0.411255,
+      "n_words": null
+    },
+    {
+      "surah_id": 72,
+      "dirac_energy": 0.224206,
+      "kernel_proj": 0.790773,
+      "proj_369": 0.303448,
+      "n_words": null
+    },
+    {
+      "surah_id": 73,
+      "dirac_energy": 0.254543,
+      "kernel_proj": 0.773464,
+      "proj_369": 0.367647,
+      "n_words": null
+    },
+    {
+      "surah_id": 74,
+      "dirac_energy": 0.224658,
+      "kernel_proj": 0.784068,
+      "proj_369": 0.338462,
+      "n_words": null
+    },
+    {
+      "surah_id": 75,
+      "dirac_energy": 0.29752,
+      "kernel_proj": 0.712938,
+      "proj_369": 0.321429,
+      "n_words": null
+    },
+    {
+      "surah_id": 76,
+      "dirac_energy": 0.127022,
+      "kernel_proj": 0.878594,
+      "proj_369": 0.384615,
+      "n_words": null
+    },
+    {
+      "surah_id": 77,
+      "dirac_energy": 0.238754,
+      "kernel_proj": 0.730897,
+      "proj_369": 0.4,
+      "n_words": null
+    },
+    {
+      "surah_id": 78,
+      "dirac_energy": 0.157904,
+      "kernel_proj": 0.85223,
+      "proj_369": 0.365169,
+      "n_words": null
+    },
+    {
+      "surah_id": 79,
+      "dirac_energy": 0.238665,
+      "kernel_proj": 0.768035,
+      "proj_369": 0.360656,
+      "n_words": null
+    },
+    {
+      "surah_id": 80,
+      "dirac_energy": 0.200019,
+      "kernel_proj": 0.817031,
+      "proj_369": 0.408759,
+      "n_words": null
+    },
+    {
+      "surah_id": 81,
+      "dirac_energy": 0.247508,
+      "kernel_proj": 0.791852,
+      "proj_369": 0.37963,
+      "n_words": null
+    },
+    {
+      "surah_id": 82,
+      "dirac_energy": 0.274071,
+      "kernel_proj": 0.747189,
+      "proj_369": 0.329412,
+      "n_words": null
+    },
+    {
+      "surah_id": 83,
+      "dirac_energy": 0.144612,
+      "kernel_proj": 0.869023,
+      "proj_369": 0.433526,
+      "n_words": null
+    },
+    {
+      "surah_id": 84,
+      "dirac_energy": 0.116075,
+      "kernel_proj": 0.882388,
+      "proj_369": 0.446429,
+      "n_words": null
+    },
+    {
+      "surah_id": 85,
+      "dirac_energy": 0.215636,
+      "kernel_proj": 0.804564,
+      "proj_369": 0.380531,
+      "n_words": null
+    },
+    {
+      "surah_id": 86,
+      "dirac_energy": 0.379804,
+      "kernel_proj": 0.655357,
+      "proj_369": 0.246154,
+      "n_words": null
+    },
+    {
+      "surah_id": 87,
+      "dirac_energy": 0.166643,
+      "kernel_proj": 0.841814,
+      "proj_369": 0.421053,
+      "n_words": null
+    },
+    {
+      "surah_id": 88,
+      "dirac_energy": 0.285544,
+      "kernel_proj": 0.737009,
+      "proj_369": 0.364583,
+      "n_words": null
+    },
+    {
+      "surah_id": 89,
+      "dirac_energy": 0.240265,
+      "kernel_proj": 0.77093,
+      "proj_369": 0.321678,
+      "n_words": null
+    },
+    {
+      "surah_id": 90,
+      "dirac_energy": 0.354165,
+      "kernel_proj": 0.678683,
+      "proj_369": 0.325581,
+      "n_words": null
+    },
+    {
+      "surah_id": 91,
+      "dirac_energy": 0.066326,
+      "kernel_proj": 0.941082,
+      "proj_369": 0.413793,
+      "n_words": null
+    },
+    {
+      "surah_id": 92,
+      "dirac_energy": 0.23319,
+      "kernel_proj": 0.794035,
+      "proj_369": 0.413333,
+      "n_words": null
+    },
+    {
+      "surah_id": 93,
+      "dirac_energy": 0.09934,
+      "kernel_proj": 0.886975,
+      "proj_369": 0.431818,
+      "n_words": null
+    },
+    {
+      "surah_id": 94,
+      "dirac_energy": 0.357713,
+      "kernel_proj": 0.627122,
+      "proj_369": 0.322581,
+      "n_words": null
+    },
+    {
+      "surah_id": 95,
+      "dirac_energy": 0.091613,
+      "kernel_proj": 0.919836,
+      "proj_369": 0.394737,
+      "n_words": null
+    },
+    {
+      "surah_id": 96,
+      "dirac_energy": 0.078814,
+      "kernel_proj": 0.925364,
+      "proj_369": 0.434211,
+      "n_words": null
+    },
+    {
+      "surah_id": 97,
+      "dirac_energy": 0.145085,
+      "kernel_proj": 0.843275,
+      "proj_369": 0.411765,
+      "n_words": null
+    },
+    {
+      "surah_id": 98,
+      "dirac_energy": 0.258889,
+      "kernel_proj": 0.761663,
+      "proj_369": 0.377551,
+      "n_words": null
+    },
+    {
+      "surah_id": 99,
+      "dirac_energy": 0.232942,
+      "kernel_proj": 0.752037,
+      "proj_369": 0.4,
+      "n_words": null
+    },
+    {
+      "surah_id": 100,
+      "dirac_energy": 0.106365,
+      "kernel_proj": 0.886479,
+      "proj_369": 0.340909,
+      "n_words": null
+    },
+    {
+      "surah_id": 101,
+      "dirac_energy": 0.45328,
+      "kernel_proj": 0.568773,
+      "proj_369": 0.25,
+      "n_words": null
+    },
+    {
+      "surah_id": 102,
+      "dirac_energy": 0.197243,
+      "kernel_proj": 0.820734,
+      "proj_369": 0.4375,
+      "n_words": null
+    },
+    {
+      "surah_id": 103,
+      "dirac_energy": 0.16578,
+      "kernel_proj": 0.803553,
+      "proj_369": 0.5,
+      "n_words": null
+    },
+    {
+      "surah_id": 104,
+      "dirac_energy": 0.11807,
+      "kernel_proj": 0.85806,
+      "proj_369": 0.459459,
+      "n_words": null
+    },
+    {
+      "surah_id": 105,
+      "dirac_energy": 0.143032,
+      "kernel_proj": 0.859989,
+      "proj_369": 0.37037,
+      "n_words": null
+    },
+    {
+      "surah_id": 106,
+      "dirac_energy": 0.061533,
+      "kernel_proj": 0.924466,
+      "proj_369": 0.333333,
+      "n_words": null
+    },
+    {
+      "surah_id": 107,
+      "dirac_energy": 0.065706,
+      "kernel_proj": 0.940372,
+      "proj_369": 0.448276,
+      "n_words": null
+    },
+    {
+      "surah_id": 108,
+      "dirac_energy": 0.169166,
+      "kernel_proj": 0.845327,
+      "proj_369": 0.357143,
+      "n_words": null
+    },
+    {
+      "surah_id": 109,
+      "dirac_energy": 0.520984,
+      "kernel_proj": 0.342839,
+      "proj_369": 0.129032,
+      "n_words": null
+    },
+    {
+      "surah_id": 110,
+      "dirac_energy": 0.151175,
+      "kernel_proj": 0.8566,
+      "proj_369": 0.478261,
+      "n_words": null
+    },
+    {
+      "surah_id": 111,
+      "dirac_energy": 0.283802,
+      "kernel_proj": 0.669529,
+      "proj_369": 0.333333,
+      "n_words": null
+    },
+    {
+      "surah_id": 112,
+      "dirac_energy": 0.237105,
+      "kernel_proj": 0.811,
+      "proj_369": 0.263158,
+      "n_words": null
+    },
+    {
+      "surah_id": 113,
+      "dirac_energy": 0.223705,
+      "kernel_proj": 0.71227,
+      "proj_369": 0.518519,
+      "n_words": null
+    },
+    {
+      "surah_id": 114,
+      "dirac_energy": 0.04103,
+      "kernel_proj": 0.968039,
+      "proj_369": 0.458333,
+      "n_words": null
+    }
+  ],
+  "verdict": {
+    "success": false,
+    "interpretation": "The discrete Dirac operator D=(I-G14_sym)^(1/2) has zero modes corresponding to the fixed-point structure of G14. States {3,6,9} appear as topologically protected zero modes (ground states) of the Dirac operator, with a mass gap separating them from excited states. This gives {3,6,9} a topological interpretation analogous to protected edge states in condensed matter."
+  }
+}
