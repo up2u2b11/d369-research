@@ -1,0 +1,165 @@
+{
+  "experiment": "Exp43_FinalSynthesis",
+  "date": "2026-05-15",
+  "author": "Emad Suleiman Alwan",
+  "ORCID": "0009-0004-5797-6140",
+  "n_experiments": 10,
+  "experiments": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+  ],
+  "scorecard": [
+    {
+      "exp": "Exp 33",
+      "title": "Eigenspectrum of G14",
+      "result": "PARTIAL",
+      "finding": "{3,6,9} is invariant subspace (H2 PASS). 4 eigenvalues=1 not 3 (4-7 cycle adds one). H1 FAIL.",
+      "verdict": "PARTIAL"
+    },
+    {
+      "exp": "Exp 34",
+      "title": "Quantum Projection on {3,6,9}",
+      "result": "PASS",
+      "finding": "Quran 0.381 > Bukhari 0.304 > Muallaqat 0.282. p<0.001 vs all controls.",
+      "verdict": "PASS"
+    },
+    {
+      "exp": "Exp 35",
+      "title": "Decoherence Simulation",
+      "result": "REVISED",
+      "finding": "Projection is order-invariant (lexical fingerprint layer). Word shuffling does not change digit-root frequencies.",
+      "verdict": "REVISED"
+    },
+    {
+      "exp": "Exp 36",
+      "title": "Hamiltonian H_Q Search",
+      "result": "FAIL (expected)",
+      "finding": "No Hermitian H_Q satisfies G14=exp(-iH). Confirms G14 is non-unitary. Schrodinger fails.",
+      "verdict": "FAIL"
+    },
+    {
+      "exp": "Exp 37",
+      "title": "Linearity Test",
+      "result": "PASS* (trivial)",
+      "finding": "Combined vector is exactly weighted average by construction. Methodologically trivial — excluded from paper.",
+      "verdict": "EXCLUDED"
+    },
+    {
+      "exp": "Exp 38",
+      "title": "Unitarity Check",
+      "result": "KEY RESULT",
+      "finding": "G14 is column-stochastic (Markov matrix). det=0, rank=6/9. NOT unitary. CPTP map.",
+      "verdict": "KEY"
+    },
+    {
+      "exp": "Exp 39",
+      "title": "Lindblad Open Systems",
+      "result": "PASS",
+      "finding": "{3,6,9} = Decoherence-Free Subspace. 6 jump operators. Steady state 77.8% on {3,6,9}.",
+      "verdict": "PASS"
+    },
+    {
+      "exp": "Exp 40",
+      "title": "First Synthesis",
+      "result": "COMPLETE",
+      "finding": "Two-layer fingerprint: lexical (order-invariant) + architectural (order-dependent).",
+      "verdict": "COMPLETE"
+    },
+    {
+      "exp": "Exp 41",
+      "title": "Entropy Analysis",
+      "result": "NEW FINDING",
+      "finding": "Quran H_norm=0.9948 — highest entropy among all Arabic texts tested. Near-perfectly uniform + systematic bias toward {3,6,9}.",
+      "verdict": "NEW"
+    },
+    {
+      "exp": "Exp 42",
+      "title": "Discrete Dirac Operator",
+      "result": "NEW FINDING",
+      "finding": "(3, 6, 9) are zero modes of D=(I-G14_sym)^(1/2). Mass gap=0.7532. r(Dirac energy, proj_369)=-0.740.",
+      "verdict": "NEW"
+    }
+  ],
+  "governing_questions": [
+    {
+      "q": "Q1. Does the Schrodinger equation accept d369?",
+      "a": "NO. G14 has det=0, rank=6, is non-invertible. No Hermitian H_Q exists such that G14=exp(-iH). Exp 36 confirms with mean error 70.6%.",
+      "status": "ANSWERED — NEGATIVE"
+    },
+    {
+      "q": "Q2. What is the correct mathematical framework?",
+      "a": "Open Markov Dynamics / Lindblad CPTP map. G14 is a column-stochastic transition matrix with absorbing subspace {3,6,9} and transient states {1,2,4,5,7,8}. Steady state: 77.8% on {3,6,9} (Exp 39).",
+      "status": "ANSWERED — LINDBLAD / MARKOV"
+    },
+    {
+      "q": "Q3. What is the dynamical status of {3,6,9}?",
+      "a": "Three roles simultaneously: (1) Absorbing states of Markov chain, (2) Decoherence-Free Subspace of Lindblad dynamics, (3) Zero modes of discrete Dirac operator (Exp 42, mass gap=0.75).",
+      "status": "ANSWERED — TRIPLE ROLE"
+    },
+    {
+      "q": "Q4. What is the entropy signature of the Quran?",
+      "a": "Maximum entropy base: H_norm=0.9948 (99.48% of theoretical maximum). Near-perfectly uniform digit-root distribution, combined with systematic +4.9pp bias toward {3,6,9}. Unique among tested Arabic texts.",
+      "status": "ANSWERED — NEW (Exp 41)"
+    },
+    {
+      "q": "Q5. Is the Quran distribution statistically distinct?",
+      "a": "YES. Exp 34: proj(Quran)=38.1% vs Bukhari 30.4%, Muallaqat 28.2%, Futuhat 34.7%, all p<0.001. Exp 41: Quran has highest Shannon entropy vs all controls (Cliffs d=0.71 vs Bukhari, p~0).",
+      "status": "ANSWERED — STRONG"
+    }
+  ],
+  "key_numbers": {
+    "G14 rank / det": "6/9  /  0",
+    "G14 eigenvalues": "{1⁴, -1¹, 0⁴}",
+    "Steady state on {3,6,9}": "77.8%  (7/9)",
+    "Lindblad jump operators": "6",
+    "Quran projection {3,6,9}": "38.1%  (random baseline: 33.3%)",
+    "Quran vs Bukhari projection": "38.1% vs 30.4%  p<0.001",
+    "Quran Shannon entropy H_norm": "0.9948  (max possible: 1.0)",
+    "Quran KL from uniform": "0.0114  (Bukhari: 0.1355)",
+    "Dirac mass gap": "0.7532",
+    "Corr(Dirac energy, proj_369)": "r = -0.74  (strong negative)",
+    "Zero modes of D for {3,6,9}": "3 (|6⟩ pure, |9⟩ pure, |3⟩ spread)",
+    "Surahs tested": "114"
+  },
+  "three_layer_fingerprint": {
+    "lexical": {
+      "exp": "Exp 34, 41",
+      "measure": "proj=38.1%, H_norm=0.9948"
+    },
+    "architectural": {
+      "exp": "Exp 07, 35",
+      "measure": "p<1e-6 architectural test"
+    },
+    "topological": {
+      "exp": "Exp 42",
+      "measure": "mass_gap=0.75, r=-0.74"
+    }
+  },
+  "open_questions": [
+    {
+      "exp": "Exp 44",
+      "title": "Non-Islamic Arabic religious text",
+      "question": "Is H_norm=0.9948 unique to Quran or shared by Arabic religious texts?"
+    },
+    {
+      "exp": "Exp 45",
+      "title": "n-gram digit root analysis",
+      "question": "Is there architectural information in consecutive digit root sequences?"
+    },
+    {
+      "exp": "Exp 46",
+      "title": "Dirac index theorem verification",
+      "question": "Does the Atiyah-Singer index count zero modes correctly for G14?"
+    }
+  ],
+  "final_verdict": "G14 is a Lindblad/CPTP open Markov channel, not a unitary operator. {3,6,9} simultaneously serve as: absorbing states, DFS, and topological zero modes (mass gap=0.75). The Quran has a unique entropic signature: maximum entropy distribution (H_norm=0.9948) combined with systematic excess on G14-absorbing states {3,6,9}.",
+  "publication_status": "INTERNAL — NO PUBLICATION until Oxford referee responses"
+}
