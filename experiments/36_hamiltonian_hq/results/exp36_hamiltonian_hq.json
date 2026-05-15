@@ -1,0 +1,817 @@
+{
+  "experiment": "Exp36_Hamiltonian_HQ",
+  "date": "2026-05-15",
+  "author": "Emad Suleiman Alwan",
+  "G14_nearest_unitary": [
+    [
+      0.0,
+      0.0,
+      0.57735,
+      0.0,
+      -0.788675,
+      0.0,
+      0.0,
+      0.211325,
+      0.0
+    ],
+    [
+      0.0,
+      -0.866025,
+      0.288675,
+      0.0,
+      0.288675,
+      0.0,
+      0.0,
+      0.288675,
+      0.0
+    ],
+    [
+      0.0,
+      0.5,
+      0.5,
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      0.5,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -0.57735,
+      0.0,
+      -0.211325,
+      0.0,
+      0.0,
+      0.788675,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "unitarity_error_of_approximation": 0.0,
+  "H_Q_matrix": [
+    [
+      -0.027455,
+      -0.279939,
+      0.075009,
+      0.0,
+      0.027455,
+      -0.0,
+      -0.0,
+      0.027455,
+      -0.0
+    ],
+    [
+      -0.279939,
+      -2.854297,
+      0.764807,
+      0.0,
+      0.279939,
+      -0.0,
+      0.0,
+      0.279939,
+      -0.0
+    ],
+    [
+      0.075009,
+      0.764807,
+      -0.204929,
+      0.0,
+      -0.075009,
+      -0.0,
+      -0.0,
+      -0.075009,
+      -0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -1.570796,
+      -0.0,
+      -0.0,
+      1.570796,
+      -0.0,
+      -0.0
+    ],
+    [
+      0.027455,
+      0.279939,
+      -0.075009,
+      -0.0,
+      -0.027455,
+      -0.0,
+      0.0,
+      -0.027455,
+      -0.0
+    ],
+    [
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      -0.0,
+      0.0,
+      -0.0,
+      1.570796,
+      0.0,
+      -0.0,
+      -1.570796,
+      0.0,
+      -0.0
+    ],
+    [
+      0.027455,
+      0.279939,
+      -0.075009,
+      -0.0,
+      -0.027455,
+      -0.0,
+      0.0,
+      -0.027455,
+      -0.0
+    ],
+    [
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0
+    ]
+  ],
+  "H_Q_structure": {
+    "eigenvalues": [
+      -3.141593,
+      -3.141593,
+      -0.0,
+      -0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "trace": -6.283185,
+    "frobenius_norm": 4.442883,
+    "subspace_369_trace": -0.204929,
+    "subspace_369_frobenius": 0.204929,
+    "is_symmetric": true
+  },
+  "approximation_test": {
+    "n_surahs": 114,
+    "mean_error": 74.339741,
+    "n_within_01": 0,
+    "n_within_05": 0,
+    "pct_within_01": 0.0,
+    "pct_within_05": 0.0,
+    "min_error": 24.889862,
+    "max_error": 114.306328
+  },
+  "surah_results": [
+    {
+      "surah_id": 1,
+      "error": 35.436146,
+      "within_01": false
+    },
+    {
+      "surah_id": 2,
+      "error": 78.331509,
+      "within_01": false
+    },
+    {
+      "surah_id": 3,
+      "error": 72.419326,
+      "within_01": false
+    },
+    {
+      "surah_id": 4,
+      "error": 87.354083,
+      "within_01": false
+    },
+    {
+      "surah_id": 5,
+      "error": 79.431472,
+      "within_01": false
+    },
+    {
+      "surah_id": 6,
+      "error": 77.521117,
+      "within_01": false
+    },
+    {
+      "surah_id": 7,
+      "error": 76.921859,
+      "within_01": false
+    },
+    {
+      "surah_id": 8,
+      "error": 80.487318,
+      "within_01": false
+    },
+    {
+      "surah_id": 9,
+      "error": 84.379481,
+      "within_01": false
+    },
+    {
+      "surah_id": 10,
+      "error": 72.933258,
+      "within_01": false
+    },
+    {
+      "surah_id": 11,
+      "error": 74.370294,
+      "within_01": false
+    },
+    {
+      "surah_id": 12,
+      "error": 72.510521,
+      "within_01": false
+    },
+    {
+      "surah_id": 13,
+      "error": 76.248089,
+      "within_01": false
+    },
+    {
+      "surah_id": 14,
+      "error": 76.334242,
+      "within_01": false
+    },
+    {
+      "surah_id": 15,
+      "error": 60.517832,
+      "within_01": false
+    },
+    {
+      "surah_id": 16,
+      "error": 71.297914,
+      "within_01": false
+    },
+    {
+      "surah_id": 17,
+      "error": 84.969301,
+      "within_01": false
+    },
+    {
+      "surah_id": 18,
+      "error": 82.278665,
+      "within_01": false
+    },
+    {
+      "surah_id": 19,
+      "error": 72.250856,
+      "within_01": false
+    },
+    {
+      "surah_id": 20,
+      "error": 71.721971,
+      "within_01": false
+    },
+    {
+      "surah_id": 21,
+      "error": 72.759193,
+      "within_01": false
+    },
+    {
+      "surah_id": 22,
+      "error": 78.364148,
+      "within_01": false
+    },
+    {
+      "surah_id": 23,
+      "error": 69.116062,
+      "within_01": false
+    },
+    {
+      "surah_id": 24,
+      "error": 79.556496,
+      "within_01": false
+    },
+    {
+      "surah_id": 25,
+      "error": 77.103018,
+      "within_01": false
+    },
+    {
+      "surah_id": 26,
+      "error": 74.466572,
+      "within_01": false
+    },
+    {
+      "surah_id": 27,
+      "error": 71.358475,
+      "within_01": false
+    },
+    {
+      "surah_id": 28,
+      "error": 69.349687,
+      "within_01": false
+    },
+    {
+      "surah_id": 29,
+      "error": 74.86302,
+      "within_01": false
+    },
+    {
+      "surah_id": 30,
+      "error": 80.685785,
+      "within_01": false
+    },
+    {
+      "surah_id": 31,
+      "error": 73.959194,
+      "within_01": false
+    },
+    {
+      "surah_id": 32,
+      "error": 80.573083,
+      "within_01": false
+    },
+    {
+      "surah_id": 33,
+      "error": 76.537585,
+      "within_01": false
+    },
+    {
+      "surah_id": 34,
+      "error": 83.315561,
+      "within_01": false
+    },
+    {
+      "surah_id": 35,
+      "error": 77.546651,
+      "within_01": false
+    },
+    {
+      "surah_id": 36,
+      "error": 71.811494,
+      "within_01": false
+    },
+    {
+      "surah_id": 37,
+      "error": 62.97604,
+      "within_01": false
+    },
+    {
+      "surah_id": 38,
+      "error": 82.285579,
+      "within_01": false
+    },
+    {
+      "surah_id": 39,
+      "error": 75.640902,
+      "within_01": false
+    },
+    {
+      "surah_id": 40,
+      "error": 76.927911,
+      "within_01": false
+    },
+    {
+      "surah_id": 41,
+      "error": 76.609405,
+      "within_01": false
+    },
+    {
+      "surah_id": 42,
+      "error": 81.00186,
+      "within_01": false
+    },
+    {
+      "surah_id": 43,
+      "error": 78.719926,
+      "within_01": false
+    },
+    {
+      "surah_id": 44,
+      "error": 64.883467,
+      "within_01": false
+    },
+    {
+      "surah_id": 45,
+      "error": 81.415013,
+      "within_01": false
+    },
+    {
+      "surah_id": 46,
+      "error": 73.179429,
+      "within_01": false
+    },
+    {
+      "surah_id": 47,
+      "error": 89.202855,
+      "within_01": false
+    },
+    {
+      "surah_id": 48,
+      "error": 84.564151,
+      "within_01": false
+    },
+    {
+      "surah_id": 49,
+      "error": 85.301406,
+      "within_01": false
+    },
+    {
+      "surah_id": 50,
+      "error": 74.867395,
+      "within_01": false
+    },
+    {
+      "surah_id": 51,
+      "error": 73.870914,
+      "within_01": false
+    },
+    {
+      "surah_id": 52,
+      "error": 85.09729,
+      "within_01": false
+    },
+    {
+      "surah_id": 53,
+      "error": 77.811507,
+      "within_01": false
+    },
+    {
+      "surah_id": 54,
+      "error": 49.917862,
+      "within_01": false
+    },
+    {
+      "surah_id": 55,
+      "error": 63.551028,
+      "within_01": false
+    },
+    {
+      "surah_id": 56,
+      "error": 58.688256,
+      "within_01": false
+    },
+    {
+      "surah_id": 57,
+      "error": 77.265908,
+      "within_01": false
+    },
+    {
+      "surah_id": 58,
+      "error": 88.594198,
+      "within_01": false
+    },
+    {
+      "surah_id": 59,
+      "error": 87.002758,
+      "within_01": false
+    },
+    {
+      "surah_id": 60,
+      "error": 74.609374,
+      "within_01": false
+    },
+    {
+      "surah_id": 61,
+      "error": 98.680279,
+      "within_01": false
+    },
+    {
+      "surah_id": 62,
+      "error": 80.955478,
+      "within_01": false
+    },
+    {
+      "surah_id": 63,
+      "error": 95.724024,
+      "within_01": false
+    },
+    {
+      "surah_id": 64,
+      "error": 79.912298,
+      "within_01": false
+    },
+    {
+      "surah_id": 65,
+      "error": 79.120032,
+      "within_01": false
+    },
+    {
+      "surah_id": 66,
+      "error": 91.969034,
+      "within_01": false
+    },
+    {
+      "surah_id": 67,
+      "error": 75.711644,
+      "within_01": false
+    },
+    {
+      "surah_id": 68,
+      "error": 91.042145,
+      "within_01": false
+    },
+    {
+      "surah_id": 69,
+      "error": 72.824003,
+      "within_01": false
+    },
+    {
+      "surah_id": 70,
+      "error": 80.964122,
+      "within_01": false
+    },
+    {
+      "surah_id": 71,
+      "error": 51.29519,
+      "within_01": false
+    },
+    {
+      "surah_id": 72,
+      "error": 90.418495,
+      "within_01": false
+    },
+    {
+      "surah_id": 73,
+      "error": 64.635701,
+      "within_01": false
+    },
+    {
+      "surah_id": 74,
+      "error": 74.161334,
+      "within_01": false
+    },
+    {
+      "surah_id": 75,
+      "error": 74.280212,
+      "within_01": false
+    },
+    {
+      "surah_id": 76,
+      "error": 69.833163,
+      "within_01": false
+    },
+    {
+      "surah_id": 77,
+      "error": 68.936912,
+      "within_01": false
+    },
+    {
+      "surah_id": 78,
+      "error": 69.748669,
+      "within_01": false
+    },
+    {
+      "surah_id": 79,
+      "error": 82.832805,
+      "within_01": false
+    },
+    {
+      "surah_id": 80,
+      "error": 83.731378,
+      "within_01": false
+    },
+    {
+      "surah_id": 81,
+      "error": 76.882123,
+      "within_01": false
+    },
+    {
+      "surah_id": 82,
+      "error": 79.436658,
+      "within_01": false
+    },
+    {
+      "surah_id": 83,
+      "error": 82.713478,
+      "within_01": false
+    },
+    {
+      "surah_id": 84,
+      "error": 76.044289,
+      "within_01": false
+    },
+    {
+      "surah_id": 85,
+      "error": 114.306328,
+      "within_01": false
+    },
+    {
+      "surah_id": 86,
+      "error": 88.415291,
+      "within_01": false
+    },
+    {
+      "surah_id": 87,
+      "error": 48.733,
+      "within_01": false
+    },
+    {
+      "surah_id": 88,
+      "error": 59.353469,
+      "within_01": false
+    },
+    {
+      "surah_id": 89,
+      "error": 68.148069,
+      "within_01": false
+    },
+    {
+      "surah_id": 90,
+      "error": 105.856141,
+      "within_01": false
+    },
+    {
+      "surah_id": 91,
+      "error": 73.160469,
+      "within_01": false
+    },
+    {
+      "surah_id": 92,
+      "error": 66.253201,
+      "within_01": false
+    },
+    {
+      "surah_id": 93,
+      "error": 59.619209,
+      "within_01": false
+    },
+    {
+      "surah_id": 94,
+      "error": 71.893485,
+      "within_01": false
+    },
+    {
+      "surah_id": 95,
+      "error": 74.609058,
+      "within_01": false
+    },
+    {
+      "surah_id": 96,
+      "error": 63.720655,
+      "within_01": false
+    },
+    {
+      "surah_id": 97,
+      "error": 51.600393,
+      "within_01": false
+    },
+    {
+      "surah_id": 98,
+      "error": 101.848011,
+      "within_01": false
+    },
+    {
+      "surah_id": 99,
+      "error": 83.074459,
+      "within_01": false
+    },
+    {
+      "surah_id": 100,
+      "error": 58.430901,
+      "within_01": false
+    },
+    {
+      "surah_id": 101,
+      "error": 43.466687,
+      "within_01": false
+    },
+    {
+      "surah_id": 102,
+      "error": 50.414576,
+      "within_01": false
+    },
+    {
+      "surah_id": 103,
+      "error": 82.509379,
+      "within_01": false
+    },
+    {
+      "surah_id": 104,
+      "error": 75.334973,
+      "within_01": false
+    },
+    {
+      "surah_id": 105,
+      "error": 76.663983,
+      "within_01": false
+    },
+    {
+      "surah_id": 106,
+      "error": 51.627774,
+      "within_01": false
+    },
+    {
+      "surah_id": 107,
+      "error": 91.525775,
+      "within_01": false
+    },
+    {
+      "surah_id": 108,
+      "error": 63.211403,
+      "within_01": false
+    },
+    {
+      "surah_id": 109,
+      "error": 35.827424,
+      "within_01": false
+    },
+    {
+      "surah_id": 110,
+      "error": 50.760679,
+      "within_01": false
+    },
+    {
+      "surah_id": 111,
+      "error": 58.766008,
+      "within_01": false
+    },
+    {
+      "surah_id": 112,
+      "error": 110.679873,
+      "within_01": false
+    },
+    {
+      "surah_id": 113,
+      "error": 24.889862,
+      "within_01": false
+    },
+    {
+      "surah_id": 114,
+      "error": 55.110757,
+      "within_01": false
+    }
+  ],
+  "conclusion": {
+    "H_Q_found": true,
+    "approximation_quality": "poor",
+    "key_insight": "G14 is not unitary. H_Q is derived from the nearest unitary approximation. Approximation error reflects the non-unitarity of G14. The proper framework is Lindblad, not standard Schrodinger."
+  },
+  "H_SUCCESS": {
+    "pass": false,
+    "description": "Mean error < 0.1 for >70% of surahs"
+  }
+}

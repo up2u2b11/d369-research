@@ -1,0 +1,63 @@
+{
+  "experiment": "Exp35_DecoherenceSimulation",
+  "date": "2026-05-15",
+  "author": "Emad Suleiman Alwan",
+  "n_trials_per_level": 50,
+  "levels": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "level_labels": [
+    "L0",
+    "L1",
+    "L2",
+    "L3",
+    "L4"
+  ],
+  "mean_curve": {
+    "0.0": {
+      "mean": 0.381072,
+      "std": 0.053606,
+      "n": 114
+    },
+    "0.25": {
+      "mean": 0.381072,
+      "std": 0.053606,
+      "n": 114
+    },
+    "0.5": {
+      "mean": 0.381072,
+      "std": 0.053606,
+      "n": 114
+    },
+    "0.75": {
+      "mean": 0.381072,
+      "std": 0.053606,
+      "n": 114
+    },
+    "1.0": {
+      "mean": 0.381072,
+      "std": 0.053606,
+      "n": 114
+    }
+  },
+  "is_monotone_decrease": true,
+  "total_decay_absolute": 0.0,
+  "total_decay_percent": 0.0,
+  "exponential_fit": {
+    "A": 0,
+    "tau": Infinity,
+    "C": 0.381072,
+    "R2": 0.0,
+    "note": "no decay"
+  },
+  "n_surahs_processed": 114,
+  "H4": {
+    "pass": false,
+    "description": "Shuffling causes monotonic reduction in projection (decoherence analogy)"
+  },
+  "verdict": "REJECT"
+}

@@ -1,0 +1,500 @@
+{
+  "experiment": "Exp33_SchrodingerSpectrum_G14",
+  "date": "2026-05-15",
+  "author": "Emad Suleiman Alwan",
+  "G14_map": {
+    "1": 5,
+    "2": 3,
+    "3": 3,
+    "4": 7,
+    "5": 3,
+    "6": 6,
+    "7": 4,
+    "8": 3,
+    "9": 9
+  },
+  "G14_matrix": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "eigenspectrum": [
+    {
+      "real": 1.0,
+      "imag": 0.0
+    },
+    {
+      "real": -1.0,
+      "imag": 0.0
+    },
+    {
+      "real": 1.0,
+      "imag": 0.0
+    },
+    {
+      "real": 0.0,
+      "imag": 0.0
+    },
+    {
+      "real": 0.0,
+      "imag": 0.0
+    },
+    {
+      "real": 0.0,
+      "imag": 0.0
+    },
+    {
+      "real": 1.0,
+      "imag": 0.0
+    },
+    {
+      "real": 0.0,
+      "imag": 0.0
+    },
+    {
+      "real": 1.0,
+      "imag": 0.0
+    }
+  ],
+  "eigenvalue_distribution": {
+    "1.0": 4,
+    "-1.0": 1,
+    "0.0": 4
+  },
+  "eigenvalue_1_count": 4,
+  "eigenvalue_1_states": [
+    {
+      "index": 0,
+      "eigenvalue_real": 1.0,
+      "eigenvalue_imag": 0.0,
+      "dominant_basis_state": 4,
+      "eigenvector_real": [
+        0.0,
+        0.0,
+        0.0,
+        0.7071067811865475,
+        0.0,
+        0.0,
+        0.7071067811865475,
+        0.0,
+        0.0
+      ],
+      "eigenvector_imag": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "norm": 0.9999999999999999
+    },
+    {
+      "index": 2,
+      "eigenvalue_real": 1.0,
+      "eigenvalue_imag": 0.0,
+      "dominant_basis_state": 3,
+      "eigenvector_real": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "eigenvector_imag": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "norm": 1.0
+    },
+    {
+      "index": 6,
+      "eigenvalue_real": 1.0,
+      "eigenvalue_imag": 0.0,
+      "dominant_basis_state": 6,
+      "eigenvector_real": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "eigenvector_imag": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "norm": 1.0
+    },
+    {
+      "index": 8,
+      "eigenvalue_real": 1.0,
+      "eigenvalue_imag": 0.0,
+      "dominant_basis_state": 9,
+      "eigenvector_real": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "eigenvector_imag": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "norm": 1.0
+    }
+  ],
+  "dominant_fixed_states": [
+    4,
+    3,
+    6,
+    9
+  ],
+  "direct_basis_verification": {
+    "1": {
+      "is_eigenstate_1": false,
+      "maps_to": 5,
+      "result_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "2": {
+      "is_eigenstate_1": false,
+      "maps_to": 3,
+      "result_vector": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "3": {
+      "is_eigenstate_1": true,
+      "maps_to": 3,
+      "result_vector": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "4": {
+      "is_eigenstate_1": false,
+      "maps_to": 7,
+      "result_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "5": {
+      "is_eigenstate_1": false,
+      "maps_to": 3,
+      "result_vector": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "6": {
+      "is_eigenstate_1": true,
+      "maps_to": 6,
+      "result_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "7": {
+      "is_eigenstate_1": false,
+      "maps_to": 4,
+      "result_vector": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "8": {
+      "is_eigenstate_1": false,
+      "maps_to": 3,
+      "result_vector": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "9": {
+      "is_eigenstate_1": true,
+      "maps_to": 9,
+      "result_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "subspace_closure": {
+    "is_invariant_subspace": true,
+    "closure_per_state": {
+      "3": {
+        "stays_in_subspace": true,
+        "result": [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "6": {
+        "stays_in_subspace": true,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "9": {
+        "stays_in_subspace": true,
+        "result": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "cycle_4_7": {
+    "cycle": "4->7->4",
+    "v_plus_eigenvalue": 0.9999999999999998,
+    "v_minus_eigenvalue": -0.9999999999999998,
+    "v_plus_is_eigenstate_1": true,
+    "v_minus_is_eigenstate_n1": true
+  },
+  "collapse_chains": {
+    "1": [
+      1,
+      5,
+      3
+    ],
+    "2": [
+      2,
+      3
+    ],
+    "8": [
+      8,
+      3
+    ]
+  },
+  "H1": {
+    "pass": false,
+    "description": "G14 has exactly 3 eigenvalues=1 corresponding to {3,6,9}"
+  },
+  "H2": {
+    "pass": true,
+    "description": "{3,6,9} forms a closed invariant subspace under G14"
+  },
+  "verdict": "PARTIAL"
+}

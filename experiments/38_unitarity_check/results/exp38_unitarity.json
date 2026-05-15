@@ -1,0 +1,595 @@
+{
+  "experiment": "Exp38_Unitarity_G14",
+  "date": "2026-05-15",
+  "author": "Emad Suleiman Alwan",
+  "G14_map": {
+    "1": 5,
+    "2": 3,
+    "3": 3,
+    "4": 7,
+    "5": 3,
+    "6": 6,
+    "7": 4,
+    "8": 3,
+    "9": 9
+  },
+  "unitarity_check": {
+    "MM_dagger": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        4.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "M_dagger_M": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "is_right_unitary": false,
+    "is_left_unitary": false,
+    "frobenius_error_right": 3.4641016151377544,
+    "frobenius_error_left": 3.4641016151377544,
+    "is_unitary": false
+  },
+  "rank_and_determinant": {
+    "rank": 6,
+    "determinant": 0.0,
+    "trace": 3.0,
+    "singular_values": [
+      2.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "is_full_rank": false,
+    "is_projection_P2_eq_P": false,
+    "nilpotent_order": null,
+    "M_squared": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "norm_preservation": {
+    "basis_vectors": {
+      "1": {
+        "norm_in": 1.0,
+        "norm_out": 1.0,
+        "preserves_norm": true
+      },
+      "2": {
+        "norm_in": 1.0,
+        "norm_out": 1.0,
+        "preserves_norm": true
+      },
+      "3": {
+        "norm_in": 1.0,
+        "norm_out": 1.0,
+        "preserves_norm": true
+      },
+      "4": {
+        "norm_in": 1.0,
+        "norm_out": 1.0,
+        "preserves_norm": true
+      },
+      "5": {
+        "norm_in": 1.0,
+        "norm_out": 1.0,
+        "preserves_norm": true
+      },
+      "6": {
+        "norm_in": 1.0,
+        "norm_out": 1.0,
+        "preserves_norm": true
+      },
+      "7": {
+        "norm_in": 1.0,
+        "norm_out": 1.0,
+        "preserves_norm": true
+      },
+      "8": {
+        "norm_in": 1.0,
+        "norm_out": 1.0,
+        "preserves_norm": true
+      },
+      "9": {
+        "norm_in": 1.0,
+        "norm_out": 1.0,
+        "preserves_norm": true
+      }
+    },
+    "random_vectors": [
+      {
+        "trial": 1,
+        "norm_in": 1.0,
+        "norm_out": 0.9473448,
+        "preserves_norm": false,
+        "norm_ratio": 0.947345
+      },
+      {
+        "trial": 2,
+        "norm_in": 1.0,
+        "norm_out": 1.04524569,
+        "preserves_norm": false,
+        "norm_ratio": 1.045246
+      },
+      {
+        "trial": 3,
+        "norm_in": 1.0,
+        "norm_out": 0.58254783,
+        "preserves_norm": false,
+        "norm_ratio": 0.582548
+      },
+      {
+        "trial": 4,
+        "norm_in": 1.0,
+        "norm_out": 0.84996919,
+        "preserves_norm": false,
+        "norm_ratio": 0.849969
+      },
+      {
+        "trial": 5,
+        "norm_in": 1.0,
+        "norm_out": 0.78941063,
+        "preserves_norm": false,
+        "norm_ratio": 0.789411
+      },
+      {
+        "trial": 6,
+        "norm_in": 1.0,
+        "norm_out": 0.96335175,
+        "preserves_norm": false,
+        "norm_ratio": 0.963352
+      },
+      {
+        "trial": 7,
+        "norm_in": 1.0,
+        "norm_out": 1.2220057,
+        "preserves_norm": false,
+        "norm_ratio": 1.222006
+      },
+      {
+        "trial": 8,
+        "norm_in": 1.0,
+        "norm_out": 0.88620704,
+        "preserves_norm": false,
+        "norm_ratio": 0.886207
+      },
+      {
+        "trial": 9,
+        "norm_in": 1.0,
+        "norm_out": 1.08763712,
+        "preserves_norm": false,
+        "norm_ratio": 1.087637
+      },
+      {
+        "trial": 10,
+        "norm_in": 1.0,
+        "norm_out": 0.92333162,
+        "preserves_norm": false,
+        "norm_ratio": 0.923332
+      },
+      {
+        "trial": 11,
+        "norm_in": 1.0,
+        "norm_out": 0.91778574,
+        "preserves_norm": false,
+        "norm_ratio": 0.917786
+      },
+      {
+        "trial": 12,
+        "norm_in": 1.0,
+        "norm_out": 0.92704014,
+        "preserves_norm": false,
+        "norm_ratio": 0.92704
+      },
+      {
+        "trial": 13,
+        "norm_in": 1.0,
+        "norm_out": 0.62954921,
+        "preserves_norm": false,
+        "norm_ratio": 0.629549
+      },
+      {
+        "trial": 14,
+        "norm_in": 1.0,
+        "norm_out": 0.93539317,
+        "preserves_norm": false,
+        "norm_ratio": 0.935393
+      },
+      {
+        "trial": 15,
+        "norm_in": 1.0,
+        "norm_out": 0.99986535,
+        "preserves_norm": false,
+        "norm_ratio": 0.999865
+      },
+      {
+        "trial": 16,
+        "norm_in": 1.0,
+        "norm_out": 1.1385397,
+        "preserves_norm": false,
+        "norm_ratio": 1.13854
+      },
+      {
+        "trial": 17,
+        "norm_in": 1.0,
+        "norm_out": 0.64827267,
+        "preserves_norm": false,
+        "norm_ratio": 0.648273
+      },
+      {
+        "trial": 18,
+        "norm_in": 1.0,
+        "norm_out": 0.70347165,
+        "preserves_norm": false,
+        "norm_ratio": 0.703472
+      },
+      {
+        "trial": 19,
+        "norm_in": 1.0,
+        "norm_out": 1.23219788,
+        "preserves_norm": false,
+        "norm_ratio": 1.232198
+      },
+      {
+        "trial": 20,
+        "norm_in": 1.0,
+        "norm_out": 0.99775624,
+        "preserves_norm": false,
+        "norm_ratio": 0.997756
+      }
+    ],
+    "summary": {
+      "basis_vectors_norm_preserved": "9/9",
+      "random_vectors_norm_preserved": "0/20",
+      "is_norm_preserving": true
+    }
+  },
+  "operator_classification": {
+    "rank": 6,
+    "determinant": 0.0,
+    "max_singular_value": 2.0,
+    "is_unitary": false,
+    "is_projection": false,
+    "is_contraction": false,
+    "is_stochastic": true,
+    "is_sub_stochastic": true,
+    "operator_type": "STOCHASTIC (norm-preserving on L1)",
+    "column_sums": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "implication": "G14 is a stochastic (Markov) matrix. It maps probability distributions to probability distributions. {3,6,9} are absorbing states. The correct framework is NOT Schrodinger (unitary), but rather an OPEN QUANTUM SYSTEM or a Markov/Lindblad evolution."
+  },
+  "steady_state": {
+    "steady_state": [
+      0.0,
+      0.0,
+      0.5555555555555556,
+      0.1111111111111111,
+      0.0,
+      0.1111111111111111,
+      0.1111111111111111,
+      0.0,
+      0.1111111111111111
+    ],
+    "dominant_states": [
+      3,
+      9,
+      7
+    ],
+    "concentration_on_369": 0.7777777777777779
+  },
+  "conclusion": {
+    "is_unitary": false,
+    "is_stochastic": true,
+    "is_projection": false,
+    "correct_framework": "Lindblad / Open Quantum Systems",
+    "absorbing_states": [
+      3,
+      6,
+      9
+    ],
+    "verdict": "G14 is a non-unitary, stochastic (Markov) operator. Standard Schrodinger evolution does not apply. Lindblad equation is the appropriate framework."
+  }
+}
